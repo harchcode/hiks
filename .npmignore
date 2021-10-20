@@ -1,0 +1,8 @@
+tsconfig.json
+src
+lib
+example
+test
+benchmark
+.*
+
