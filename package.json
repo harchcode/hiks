@@ -14,7 +14,7 @@
     "node": ">=12"
   },
   "scripts": {
-    "start": "tsdx watch",
+    "start": "parcel example/index.html",
     "build": "tsdx build",
     "test": "tsdx test --coverage",
     "lint": "eslint src test",
@@ -35,6 +35,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.2.3",
+    "parcel": "^2.0.0",
     "prettier": "^2.4.1",
     "size-limit": "^6.0.3",
     "standard-version": "^9.3.2",
